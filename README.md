@@ -6,7 +6,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Live Site URL: [https://eleneq.github.io/Feature-section/]
+- Live Site URL: (https://eleneq.github.io/Feature-section/)
 
 ## My process
 
