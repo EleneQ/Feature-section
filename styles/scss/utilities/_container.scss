@@ -1,0 +1,14 @@
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 75%;
+  }
+
+  .container--sm {
+    width: 37%;
+  }
+}

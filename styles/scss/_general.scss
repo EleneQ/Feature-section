@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  font-family: $font-family-primary;
+  font-size: map-get($font-size, small);
+  background-color: $neutral-light-gray;
+  color: $neutral-dark-blue;
+
+  padding-block: 5rem;
+}
+
+@media (min-width: 1000px) {
+  body {
+    padding-block: 3rem;
+  }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
